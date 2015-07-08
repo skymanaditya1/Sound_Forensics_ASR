@@ -1,0 +1,5 @@
+Hidden Markov Model and Its Implementation: 
+
+1. Forward Algorithm
+2. Viterbi Algorithm
+3. Forward Backward Algorithm
