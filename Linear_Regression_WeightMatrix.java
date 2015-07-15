@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 
  * We have to find the optimal weights. The Optimal Weights can be calculated using the formula 
  * W = inverse(transpose(X), X) * transpose(X) * y
- *
+ * Also calculate the sum-squared error, sum squared difference between the optimal weights and the predicted weights (entered by the user)
  */
 
 public class Linear_Regression_WeightMatrix {
@@ -19,6 +19,8 @@ public class Linear_Regression_WeightMatrix {
 	public static int number_features;
 	public static float[][] feature_matrix;
 	public static float[][] result_array;
+	public static float[][] user_weights;
+	public static float[][] optimal_weights;
 	
 	public static void main(String[] args){
 		@SuppressWarnings("resource")
@@ -71,8 +73,36 @@ public class Linear_Regression_WeightMatrix {
 		 * Fifth step is multiplying the result of the previous four steps with the result array
 		 * The resulting array gives the most optimal weights. 
 		 */
-		System.out.println("The weight matrix is : ");
+		optimal_weights = multiply_matrices(multiply_matrices(inverse_matrix(multiply_matrices(transpose(feature_matrix), feature_matrix)), transpose(feature_matrix)), result_array);
+		
+		user_weights = new float[number_observations][1];
+		System.out.println("Enter the predicted value of weights : ");
+		for(int i=0; i<user_weights.length; i++){
+			user_weights[i][0] = in.nextFloat();
+		}
+		
+		System.out.println("The optimal weights are : ");
 		display(multiply_matrices(multiply_matrices(inverse_matrix(multiply_matrices(transpose(feature_matrix), feature_matrix)), transpose(feature_matrix)), result_array));
+		
+		/**
+		 * method for calculating the sum-squared error
+		 */
+		System.out.println("The cost of function is : "+calculate_sum_squared_error(user_weights, optimal_weights));
+	}
+
+	/**
+	 * Method for calculating the sum-squared error
+	 * @param predicted_values - the predicted weights entered by the user
+	 * @param optimal_weights2 - the optimal weights calculated by the program
+	 */
+	private static float calculate_sum_squared_error(float[][] predicted_values,
+			float[][] observed_values) {
+		// TODO Auto-generated method stub
+		float cost = 0;
+		for(int i=0; i<number_observations; i++){
+			cost += Math.pow((predicted_values[i][0] - observed_values[i][0]), 2);
+		}
+		return cost;
 	}
 
 	/**
@@ -126,28 +156,16 @@ public class Linear_Regression_WeightMatrix {
 					temp_minor[i][j] = find_determinant((find_minor_matrix(multiply_matrices, i, j)), temp_minor.length-1); 
 				}
 			}
-			// System.out.println("Displaying the temp minor matrix ");
-			// display(temp_minor);
-			// System.out.println("Stopped displaying the temp minor matrix ");
 			
 			float[][] temp_cofactor = new float[dimension][dimension];
 			int product = 1;
 			for(int i=0; i<temp_minor.length; i++){
 				for(int j=0; j<temp_minor[i].length; j++){
-					// if(temp_minor[i][j] == 0.0 || temp_minor[i][j] == -0.0){
-						// temp_cofactor[i][j] = (float) 0.0;
-					// }
-					// else{
-						temp_cofactor[i][j] = temp_minor[i][j] * product;
 						product = product * -1;
-					// }
 				}
 			}
-			// display(temp_cofactor);
 			
 			// After calculating the cofactor matrix, swap the entries about the main diagonal
-			// float[][] swap_diagonal = new float[dimension][dimension];
-			
 			for(int i=0; i<temp_cofactor.length; i++){
 				for(int j=0; j<temp_cofactor[i].length; j++){
 					if (i < j){
@@ -185,11 +203,11 @@ public class Linear_Regression_WeightMatrix {
 	
 	/**
 	 * Method that returns the matrix without the ROWth row and the COLth column
-	 * @param matrix
-	 * @param length
-	 * @param row
-	 * @param col
-	 * @return
+	 * @param matrix - the matrix whose minor is to be found
+	 * @param length - the length of the matrix
+	 * @param row - the row in the matrix to ignore 
+	 * @param col - the column in the matrix to ignore
+ 	 * @return - returns the minor matrix without the row and column in the matrix
 	 */
 	private static float[][] find_minor_matrix(float[][] matrix, int row, int col){
 		
@@ -239,11 +257,11 @@ public class Linear_Regression_WeightMatrix {
 
 	/**
 	 * Finds the minor of the matrix in question. Used for calculating the determinant of the matrix.
-	 * @param matrix1
-	 * @param length
-	 * @param i
-	 * @param i2
-	 * @return
+	 * @param matrix1 - the matrix whose minor is to be found
+	 * @param length - the length of the matrix
+	 * @param i - the row to ignore
+	 * @param i2 - the column to ignore
+	 * @return - the minor matrix
 	 */
 	private static float[][] find_minor(float[][] matrix1, int length, int i,
 			int i2) {
@@ -274,9 +292,9 @@ public class Linear_Regression_WeightMatrix {
 	
 	/**
 	 * Finds the determinant of the 2X2 matrix
-	 * @param a
-	 * @param n
-	 * @return
+	 * @param a - the 2X2 matrix whose determinant is to be found
+	 * @param n - the length of the 2X2 matrix (in our case 2)
+ 	 * @return - returns the determinant of the matrix
 	 */
 	
 	private static float two_find_determinant(float[][] a, int n) {
@@ -307,7 +325,6 @@ public class Linear_Regression_WeightMatrix {
 		}
 		
 		return result_matrix;
-		
 	}
 
 	/**
