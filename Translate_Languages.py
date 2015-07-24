@@ -8,7 +8,7 @@ import tkinter.filedialog
 url_name = 'https://translate.google.co.in'
 driver = webdriver.Firefox()
 driver.get(url_name)
-file_read = 'YOUR_PATH_TO_READ_FROM'
+file_read = '/home/aditya/input_file'
 q = ''
 f_open = open(file_read, 'r')
 line = f_open.readline()
@@ -24,7 +24,7 @@ elem1 = driver.find_element_by_id(':3i') ## translates this to hindi, change lan
 elem1.click()
 elem_title = driver.find_element_by_id('result_box')
 print(elem_title.text)
-abs_path = 'YOUR_PATH_TO_WRITE_TO'
+abs_path = '/home/aditya/output_file'
 f = open(abs_path, 'w')
 f.write(elem_title.text)
 time.sleep(10)
