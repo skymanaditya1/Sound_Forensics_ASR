@@ -37,7 +37,5 @@ public class DispClassAttribute {
 			writer.println(""+instance.classAttribute().value((int)class_Value));
 		}
 		writer.close();
-		
-		
 	}
 }
