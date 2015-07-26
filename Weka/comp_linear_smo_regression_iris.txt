@@ -1,0 +1,21 @@
+Comparison between the linear regression and smo regression models on iris numeric only attributes dataset
+
+Linear Regression Model
+
+petalwidth =
+
+     -0.2103 * sepallength +
+      0.2288 * sepalwidth +
+      0.5261 * petallength +
+     -0.2487
+SMOreg
+
+weights (not support vectors):
+ -       0.2395 * (normalized) sepallength
+ +       0.1804 * (normalized) sepalwidth
+ +       1.2354 * (normalized) petallength
+ -       0.1015
+
+
+
+Number of kernel evaluations: 11325 (88.445% cached)
