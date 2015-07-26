@@ -25,7 +25,7 @@ public class DispClassAttribute {
 		if(dataset.classIndex() == -1){
 			dataset.setClassIndex(dataset.numAttributes() - 1);
 		}
-		// Saving the contents to a file
+		// Saving the contents to a file, overrides the file_path if present
 		PrintWriter writer = new PrintWriter(absolute_path+"/class_values_weather.txt", "UTF-8");
 		
 		// get the value of class attribute for each instance
