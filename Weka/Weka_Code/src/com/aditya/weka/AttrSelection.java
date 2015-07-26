@@ -1,13 +1,5 @@
 package com.aditya.weka;
 
-/**
- * Written in Linux
- * Applies AttributeSelection using the evaluator and search 
- * Removes irrelevant attributes which 
- * decreases the efficiency of algorithms in weka
- * @author aditya
- */
-
 import java.io.File;
 
 import weka.attributeSelection.CfsSubsetEval;
@@ -17,6 +9,14 @@ import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
+
+/**
+ * Written in Linux
+ * Applies AttributeSelection using the evaluator and search 
+ * Removes irrelevant attributes which 
+ * decreases the efficiency of algorithms in weka
+ * @author aditya
+ */
 
 public class AttrSelection {
 
