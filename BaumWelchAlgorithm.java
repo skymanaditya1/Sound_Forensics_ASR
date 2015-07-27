@@ -2,6 +2,9 @@ package com.aditya.sound.hmm;
 
 import java.util.Scanner;
 
+// Partial Implementation of the Forward Backward Algorithm also known as the
+// Baum Welch Algorithm ( a special case of Expectation Maximization Algorithm)
+
 public class BaumWelchAlgorithm {
 
 	public static int number_mfcc;
