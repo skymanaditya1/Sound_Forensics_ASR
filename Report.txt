@@ -1,5 +1,5 @@
 Hidden Markov Model and Its Implementation: 
 
-1. Forward Algorithm
-2. Viterbi Algorithm
-3. Forward Backward Algorithm
+1. Forward Algorithm - Calculates the forward path probabilites. Takes the transition probability matrix and observation likelihood probabilities matrix as input.
+2. Viterbi Algorithm - Calculates the Viterbi path probabilites. Also finds out the best sequence of hidden states for the given observation sequence. 
+3. Forward Backward Algorithm - Also known as the baum welch algorithm. Used for training the data. Used for finding out the hidden parameters of the HMM, the transition probability matrix and the emission probability matrix. The emission probability matrix can be found out using the Gaussian Distributions (multivariate gaussian distribution).
