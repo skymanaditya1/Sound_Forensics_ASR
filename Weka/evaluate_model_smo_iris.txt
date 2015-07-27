@@ -1,0 +1,18 @@
+Evaluation statistics 
+
+Correctly Classified Instances          68               93.1507 %
+Incorrectly Classified Instances         5                6.8493 %
+Kappa statistic                          0.8973
+Mean absolute error                      0.2405
+Root mean squared error                  0.3039
+Relative absolute error                 54.1142 %
+Root relative squared error             64.4315 %
+Total Number of Instances               73     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 24  1  0 |  a = Iris-setosa
+  0 23  1 |  b = Iris-versicolor
+  0  3 21 |  c = Iris-virginica
+
