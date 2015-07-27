@@ -1,0 +1,181 @@
+Evaluation statistics for J48 classifier : 
+Statistics for fold 1/10
+
+Correctly Classified Instances          14               93.3333 %
+Incorrectly Classified Instances         1                6.6667 %
+Kappa statistic                          0.9   
+Mean absolute error                      0.045 
+Root mean squared error                  0.1693
+Relative absolute error                 10.1286 %
+Root relative squared error             35.9177 %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = Iris-setosa
+ 0 4 1 | b = Iris-versicolor
+ 0 0 5 | c = Iris-virginica
+
+Statistics for fold 2/10
+
+Correctly Classified Instances          15              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0106
+Root mean squared error                  0.0159
+Relative absolute error                  2.3823 %
+Root relative squared error              3.37   %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = Iris-setosa
+ 0 5 0 | b = Iris-versicolor
+ 0 0 5 | c = Iris-virginica
+
+Statistics for fold 3/10
+
+Correctly Classified Instances          15              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0106
+Root mean squared error                  0.0159
+Relative absolute error                  2.3823 %
+Root relative squared error              3.37   %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = Iris-setosa
+ 0 5 0 | b = Iris-versicolor
+ 0 0 5 | c = Iris-virginica
+
+Statistics for fold 4/10
+
+Correctly Classified Instances          15              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0106
+Root mean squared error                  0.0159
+Relative absolute error                  2.3823 %
+Root relative squared error              3.37   %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = Iris-setosa
+ 0 5 0 | b = Iris-versicolor
+ 0 0 5 | c = Iris-virginica
+
+Statistics for fold 5/10
+
+Correctly Classified Instances          14               93.3333 %
+Incorrectly Classified Instances         1                6.6667 %
+Kappa statistic                          0.9   
+Mean absolute error                      0.0587
+Root mean squared error                  0.2128
+Relative absolute error                 13.1977 %
+Root relative squared error             45.1374 %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = Iris-setosa
+ 0 4 1 | b = Iris-versicolor
+ 0 0 5 | c = Iris-virginica
+
+Statistics for fold 6/10
+
+Correctly Classified Instances          15              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0094
+Root mean squared error                  0.0149
+Relative absolute error                  2.1152 %
+Root relative squared error              3.1533 %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = Iris-setosa
+ 0 5 0 | b = Iris-versicolor
+ 0 0 5 | c = Iris-virginica
+
+Statistics for fold 7/10
+
+Correctly Classified Instances          13               86.6667 %
+Incorrectly Classified Instances         2               13.3333 %
+Kappa statistic                          0.8   
+Mean absolute error                      0.0931
+Root mean squared error                  0.2983
+Relative absolute error                 20.9524 %
+Root relative squared error             63.2814 %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 4 1 0 | a = Iris-setosa
+ 0 5 0 | b = Iris-versicolor
+ 0 1 4 | c = Iris-virginica
+
+Statistics for fold 8/10
+
+Correctly Classified Instances          13               86.6667 %
+Incorrectly Classified Instances         2               13.3333 %
+Kappa statistic                          0.8   
+Mean absolute error                      0.0919
+Root mean squared error                  0.295 
+Relative absolute error                 20.6667 %
+Root relative squared error             62.5783 %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = Iris-setosa
+ 0 4 1 | b = Iris-versicolor
+ 0 1 4 | c = Iris-virginica
+
+Statistics for fold 9/10
+
+Correctly Classified Instances          15              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0094
+Root mean squared error                  0.0149
+Relative absolute error                  2.1152 %
+Root relative squared error              3.1533 %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = Iris-setosa
+ 0 5 0 | b = Iris-versicolor
+ 0 0 5 | c = Iris-virginica
+
+Statistics for fold 10/10
+
+Correctly Classified Instances          15              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0106
+Root mean squared error                  0.0159
+Relative absolute error                  2.3823 %
+Root relative squared error              3.37   %
+Total Number of Instances               15     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = Iris-setosa
+ 0 5 0 | b = Iris-versicolor
+ 0 0 5 | c = Iris-virginica
+
