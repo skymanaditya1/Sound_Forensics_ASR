@@ -1,0 +1,48 @@
+Model statistics
+Iris-setosa Iris-setosa
+Iris-virginica Iris-setosa
+Iris-setosa Iris-setosa
+Iris-versicolor Iris-setosa
+Iris-virginica Iris-setosa
+Iris-versicolor Iris-versicolor
+Iris-versicolor Iris-versicolor
+Iris-virginica Iris-versicolor
+Iris-versicolor Iris-versicolor
+Iris-setosa Iris-versicolor
+Iris-virginica Iris-virginica
+Iris-setosa Iris-virginica
+Iris-virginica Iris-virginica
+Iris-virginica Iris-virginica
+Iris-versicolor Iris-versicolor
+Iris-virginica Iris-virginica
+Naive Bayes Classifier
+
+                         Class
+Attribute          Iris-setosa Iris-versicolor  Iris-virginica
+                        (0.33)          (0.33)          (0.33)
+===============================================================
+sepallength
+  mean                   4.9913          5.9379          6.5795
+  std. dev.               0.355          0.5042          0.6353
+  weight sum                 50              50              50
+  precision              0.1059          0.1059          0.1059
+
+sepalwidth
+  mean                   3.4015          2.7687          2.9629
+  std. dev.              0.3925          0.3038          0.3088
+  weight sum                 50              50              50
+  precision              0.1091          0.1091          0.1091
+
+petallength
+  mean                   1.4694          4.2452          5.5516
+  std. dev.              0.1782          0.4712          0.5529
+  weight sum                 50              50              50
+  precision              0.1405          0.1405          0.1405
+
+petalwidth
+  mean                   0.2743          1.3097          2.0343
+  std. dev.              0.1096          0.1915          0.2646
+  weight sum                 50              50              50
+  precision              0.1143          0.1143          0.1143
+
+
