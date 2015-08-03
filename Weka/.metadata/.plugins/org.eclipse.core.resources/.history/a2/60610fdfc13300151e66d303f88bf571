@@ -1,0 +1,15 @@
+package com.aditya.weka;
+
+/**
+ * Class for evaluating a model given a classifier 
+ * and the training and test dataset as input
+ * @author aditya
+ *
+ */
+
+public class Evaluate {
+
+	public static void main(String[] args){
+		// load the training dataset in an instance object
+	}
+}

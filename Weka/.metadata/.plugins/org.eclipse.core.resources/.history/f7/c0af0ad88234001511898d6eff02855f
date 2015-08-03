@@ -1,0 +1,5 @@
+package com.aditya.weka;
+
+public class ClassifyInstance {
+
+}

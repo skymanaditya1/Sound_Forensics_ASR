@@ -1,0 +1,14 @@
+package com.aditya.weka;
+
+/**
+ * evaluates the model with SMO (Sequential Minimal Optimization) 
+ * as the classifier and the iris dataset for testing and training.
+ * also implements some of the methods available with the evaluate
+ * class.
+ * @author aditya
+ *
+ */
+
+public class EvaluateSMO {
+
+}

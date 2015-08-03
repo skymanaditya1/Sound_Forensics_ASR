@@ -1,0 +1,15 @@
+package com.aditya.weka;
+
+/**
+ * Written in Linux
+ * Code converts a CSV (Comma Separated Values) file to ARFF (Attribute Relation File Format) file.
+ * @author aditya
+ *
+ */
+
+public class CSV2Arff {
+
+	public static void main(String[] args){
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.aditya.weka;
+
+/**
+ * classifies the instances if the class value is numeric
+ * using SMOreg (Sequential Minimal Optimization) regression.
+ * @author aditya
+ *
+ */
+
+public class ClassifyInstanceNumeric {
+
+}

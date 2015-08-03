@@ -1,0 +1,11 @@
+package com.aditya.weka;
+
+/**
+ * Displays the value of the class Attribute for each Instance
+ * @author aditya
+ *
+ */
+
+public class DisplayClassAttribute {
+
+}

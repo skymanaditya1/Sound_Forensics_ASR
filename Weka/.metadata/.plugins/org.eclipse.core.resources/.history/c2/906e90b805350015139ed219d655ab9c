@@ -1,0 +1,12 @@
+package com.aditya.weka;
+
+/**
+ * Association Rules used for finding correlations, 
+ * associations amd patterns
+ * @author aditya
+ *
+ */
+
+public class AssocRules {
+
+}

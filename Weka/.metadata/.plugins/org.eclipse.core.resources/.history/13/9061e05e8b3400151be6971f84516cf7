@@ -1,0 +1,15 @@
+package com.aditya.weka;
+
+/**
+ * Classifies the individual instances
+ * using the J48 model for classification. 
+ * @author aditya
+ *
+ */
+
+public class ClassifyInstanceJ48 {
+
+	public static void main(String[] args) throws Exception{
+		
+	}
+}

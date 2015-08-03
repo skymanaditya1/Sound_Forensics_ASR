@@ -1,0 +1,18 @@
+package com.aditya.weka;
+
+import javax.xml.transform.Source;
+
+/**
+ * Displays the value of the class Attribute for each Instance
+ * @author aditya
+ *
+ */
+
+public class DisplayClassAttribute {
+
+	public static void main(String[] args) throws Exception{
+		// store the dataset in an instance object
+		Source source = new Source("/home/aditya/CCBD_Sound_Internship/Sound_Forensics_ASR_Git/Weka/weather.numeric.arff");
+		
+	}
+}

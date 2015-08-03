@@ -1,0 +1,11 @@
+package com.aditya.weka;
+
+/**
+ * Class evaluates using the naive bayes model
+ * @author aditya
+ *
+ */
+
+public class EvaluateNaiveBayes {
+
+}

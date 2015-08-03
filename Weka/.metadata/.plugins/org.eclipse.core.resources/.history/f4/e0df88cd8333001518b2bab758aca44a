@@ -1,0 +1,20 @@
+package com.aditya.weka;
+
+import weka.core.converters.ConverterUtils.DataSource;
+
+/**
+ * Builds a classifier with filter
+ * @author aditya
+ *
+ */
+
+public class ClassifierWithFilter {
+	
+	public static String abs_path = "/home/aditya/CCBD_Sound_Internship/Sound_Forensics_ASR_Git/Weka";
+	
+	public static void main(String[] args) throws Exception{
+		// load the dataset in an instance object
+		DataSource source = new DataSource(abs_path+"/iris.arff");
+		Instances dataset = source.getDataSet();
+	}
+}

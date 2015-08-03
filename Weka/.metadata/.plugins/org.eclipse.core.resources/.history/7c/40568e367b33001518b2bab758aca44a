@@ -1,0 +1,15 @@
+package com.aditya.weka;
+
+/**
+ * Class to demonstrate the capability of the classifiers
+ * NaiveBayes, SMO and J48 tree.
+ * @author aditya
+ *
+ */
+
+public class Classification {
+
+	public static void main(String[] args){
+		
+	}
+}

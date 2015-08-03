@@ -1,0 +1,22 @@
+package com.aditya.weka;
+
+import java.io.File;
+
+import weka.core.Instances;
+import weka.core.converters.ArffSaver;
+import weka.core.converters.CSVLoader;
+
+/**
+ * Written in Linux
+ * Code converts a CSV (Comma Separated Values) file to ARFF (Attribute Relation File Format) file.
+ * @author aditya
+ *
+ */
+
+public class CSV2Arff {
+
+	public static void main(String[] args) throws Exception{
+		
+		// load CSV file
+	}
+}

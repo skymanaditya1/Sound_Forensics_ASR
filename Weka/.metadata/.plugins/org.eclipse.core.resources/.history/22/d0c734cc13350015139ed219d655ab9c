@@ -1,0 +1,18 @@
+package com.aditya.weka;
+
+/**
+ * Clustering is grouping of instances into clusters,
+ * using a similarity measure, most commonly the 
+ * Euclidean distance.
+ * @author aditya
+ *
+ */
+
+public class Clustering {
+
+	public static String abs_path = "/home/aditya/CCBD_Sound_Internship/Sound_Forensics_ASR_Git/Weka";
+	
+	public static void main(String[] args) throws Exception{
+		
+	}
+}

@@ -1,0 +1,8 @@
+package com.aditya.weka;
+
+public class AttrInstance {
+
+	public static void main(String[] args) throws Exception{
+		
+	}
+}

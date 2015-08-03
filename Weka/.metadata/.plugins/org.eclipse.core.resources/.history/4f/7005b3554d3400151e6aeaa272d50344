@@ -1,0 +1,12 @@
+package com.aditya.weka;
+
+/**
+ * evaluate the model for folds using the 
+ * J48 tree classifier using the iris dataset
+ * @author aditya
+ *
+ */
+
+public class FoldsJ48 {
+
+}

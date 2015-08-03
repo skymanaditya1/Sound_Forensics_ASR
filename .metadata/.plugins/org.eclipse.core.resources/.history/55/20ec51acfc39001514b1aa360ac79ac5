@@ -1,0 +1,25 @@
+package com.classification.algorithms;
+
+import java.util.Scanner;
+
+/**
+ * K-Means is a clustering algorithm, 
+ * Takes the set of points x1, ..., xn as input
+ * Also takes the number of clusters K as input
+ * Place centroids c1, ..., ck at random locations
+ * For each point xi find the nearest centroid Cj, 
+ * arg min D(xi, Cj), using the Euclidean distance.
+ * distance (e.g Euclidian) between instance xi and cluster cj
+ * assign the point xj to the cluster j.
+ * For each cluster j = 1 ... K, new centroid cj = mean
+ * of all points, assigned to cluster j in previous step
+ * @author aditya
+ *
+ */
+
+public class KMeansAlgorithm {
+
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+	}
+}

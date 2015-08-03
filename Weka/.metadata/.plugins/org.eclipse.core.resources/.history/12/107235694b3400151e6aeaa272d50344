@@ -1,0 +1,15 @@
+package com.aditya.weka;
+
+/**
+ * model to train and test the dataset instances
+ * by using folds
+ * @author aditya
+ *
+ */
+
+public class Folds {
+
+	public static void main(String[] args){
+		
+	}
+}

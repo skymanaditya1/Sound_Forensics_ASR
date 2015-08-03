@@ -1,0 +1,34 @@
+package com.aditya.weka;
+
+import weka.classifiers.functions.SMOreg;
+import weka.core.Instances;
+import weka.core.converters.ConverterUtils.DataSource;
+
+/**
+ * classifies the instances if the class value is numeric
+ * using SMOreg (Sequential Minimal Optimization) regression.
+ * Uses the iris data set for training and the unknown iris
+ * dataset for testing the classifier.
+ * @author aditya
+ *
+ */
+
+public class ClassifyInstanceNumeric {
+
+	public static String abs_path = "/home/aditya/CCBD_Sound_Internship/Sound_Forensics_ASR_Git/Weka";
+	
+	public static void main(String[] args) throws Exception{
+		// load the dataset for training
+		DataSource source = new DataSource(abs_path+"/iris.arff");
+		Instances traindata = source.getDataSet();
+		
+		// set the classindex to the last attribute
+		traindata.setClassIndex(traindata.numAttributes() - 1);
+		
+		// load the dataset for testing
+		
+		// build the classifier
+		SMOreg smo = new SMOreg();
+		smo.buildClassifier(traindata);
+	}
+}
