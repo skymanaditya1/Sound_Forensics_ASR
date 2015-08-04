@@ -11,7 +11,7 @@ public class KMeansClusteringDoubleAttributess{
 	private static int number_clusters;
 	private static Random random;
 	private static float[][] cluster_points;
-	private static int[] number_of_points; 
+	// private static int[] number_of_points; 
 	private static float[][] cluster_distances;
 	
 	
@@ -61,7 +61,7 @@ public class KMeansClusteringDoubleAttributess{
 		display_cluster_values(cluster_points);
 		
 		// initialize the number_of_points with the number of cluster
-		number_of_points = new int[number_clusters];
+		// number_of_points = new int[number_clusters];
 		
 		// calculate the cluster distances using the 
 		// k means clustering algorithm
@@ -90,9 +90,66 @@ public class KMeansClusteringDoubleAttributess{
 				cluster_distances2[i][j] = find_euclidean_distance(points_attributes2, i, 
 						cluster_points2, j);
 			}
+			
 		}
 		
+		/**
+		 * Also for each of the points in the cluster_distances,
+		 * find out the minimum value for each of the points, and 
+		 * increment the value of the index in the number_of_points
+		 */
+		
+		System.out.println("--- Prints out cluster distances ---");
 		display_cluster_values(cluster_distances2);
+		
+		/**
+		 * Finds the number of words in each cluster
+		 */
+		find_words_each_cluster(cluster_distances2);
+		
+	}
+
+
+	/**
+	 * Finds out the number of words in every cluster
+	 * @param cluster_distances2
+	 * @param number_of_points2
+	 */
+	private static void find_words_each_cluster(float[][] cluster_distances2) {
+		float[] temp_centroidal_values = new float[number_clusters];
+		int[] temp_cluster_points = new int[number_clusters];
+		// TODO Auto-generated method stub
+		for(int i=0; i<cluster_distances2.length; i++){
+			float min_value = cluster_distances2[i][0];
+			int min_index = i;
+			for(int j=1; j<number_clusters; j++){
+				if(cluster_distances2[i][j] < min_value){
+					min_value = cluster_distances2[i][j];
+					min_index = j;
+				}
+			}
+			
+			temp_centroidal_values[min_index] += min_value;
+			temp_cluster_points[min_index] += 1;
+			
+		}
+		
+		System.out.println(" ---Displays the number of points in each cluster--- ");
+		display_linear_array(temp_cluster_points);
+	}
+	
+	/**
+	 * Displays the number of points in each cluster
+	 * @param number_of_points2
+	 */
+
+
+	private static void display_linear_array(int[] number_of_points2) {
+		// TODO Auto-generated method stub
+		for(int i=0; i<number_of_points2.length; i++){
+			System.out.println(number_of_points2[i]+" ");
+		}
+		System.out.println();
 	}
 
 
@@ -134,6 +191,7 @@ public class KMeansClusteringDoubleAttributess{
 	}
 
 
+	
 	/**
 	 * Calculates the root mean squared distance between the points
 	 * and returns the maximum value
