@@ -1,0 +1,21 @@
+# Description of the file:
+# The number of observations 
+# The number of features
+# The feature matrix of dimension number_observations * number_features
+# The result matrix number_observations * 1
+
+4
+
+4
+
+3 1 5 7
+4 2 7 1
+9 4 1 8
+3 1 5 3
+
+3
+4
+1
+6
+
+
