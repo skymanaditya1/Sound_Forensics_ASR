@@ -29,6 +29,12 @@ def populateNomFile(nominal_attr, nominal_value, inst):
 	for i in range(0, inst):
 		f.write(nominal_value+"\n")
 
+'''method for removing the redundant files
+'''
+def remove_redundant_files():
+	remove_str = "rm "+WRITE_DIR+"/final_temp.arff "+WRITE_DIR+"/merge_file.arff "+WRITE_DIR+"/nominal.arff"
+	os.system(remove_str)
+
 if __name__ == "__main__":
 	OPENSMILE_DIR="/home/aditya/CCBD_Sound_Internship/openSMILE-2.1.0/bin/linux_x64_standalone_static"
 	READ_DIR=input("Enter the read directory : ")
@@ -60,3 +66,6 @@ if __name__ == "__main__":
 				os.system("cat "+WRITE_DIR+"/final_temp.arff > "+WRITE_DIR+"/final.arff")
 				print(i)
 			i += 1
+			
+	'''Remove the redundant files final_temp.arff, merge_file.arff and nominal.arff'''
+	remove_redundant_files()
