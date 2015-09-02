@@ -40,9 +40,9 @@
 <fullyQualifiedTypeName name="weka.classifiers.bayes.NaiveBayes"/>
 <fullyQualifiedTypeName name="weka.classifiers.meta.Vote"/>
 <fullyQualifiedTypeName name="weka.associations.Apriori"/>
-<fullyQualifiedTypeName name="weka.core.converters.ConverterUtils.DataSource"/>
-<fullyQualifiedTypeName name="weka.core.Instances"/>
 <fullyQualifiedTypeName name="weka.clusterers.SimpleKMeans"/>
 <fullyQualifiedTypeName name="weka.core.Instance"/>
 <fullyQualifiedTypeName name="weka.clusterers.ClusterEvaluation"/>
+<fullyQualifiedTypeName name="weka.core.converters.ConverterUtils.DataSource"/>
+<fullyQualifiedTypeName name="weka.core.Instances"/>
 </qualifiedTypeNameHistroy>

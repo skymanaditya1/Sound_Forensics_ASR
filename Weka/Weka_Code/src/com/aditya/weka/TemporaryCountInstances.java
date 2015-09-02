@@ -21,5 +21,6 @@ public class TemporaryCountInstances {
 		int num_Instances = dataset.numInstances();
 		
 		System.out.println("The number of Instances in the given file is "+num_Instances);
+		
 	}
 }

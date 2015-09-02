@@ -1,4 +1,4 @@
-package com.aditya.sound.hmm;
+// package com.aditya.sound.hmm;
 
 import java.util.Scanner;
 
