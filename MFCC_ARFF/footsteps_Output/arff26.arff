@@ -1,0 +1,47 @@
+@relation (null)_(null)
+
+@attribute pcm_fftMag_mfcc[1] numeric
+@attribute pcm_fftMag_mfcc[2] numeric
+@attribute pcm_fftMag_mfcc[3] numeric
+@attribute pcm_fftMag_mfcc[4] numeric
+@attribute pcm_fftMag_mfcc[5] numeric
+@attribute pcm_fftMag_mfcc[6] numeric
+@attribute pcm_fftMag_mfcc[7] numeric
+@attribute pcm_fftMag_mfcc[8] numeric
+@attribute pcm_fftMag_mfcc[9] numeric
+@attribute pcm_fftMag_mfcc[10] numeric
+@attribute pcm_fftMag_mfcc[11] numeric
+@attribute pcm_fftMag_mfcc[12] numeric
+@attribute pcm_LOGenergy numeric
+@attribute pcm_fftMag_mfcc_de[1] numeric
+@attribute pcm_fftMag_mfcc_de[2] numeric
+@attribute pcm_fftMag_mfcc_de[3] numeric
+@attribute pcm_fftMag_mfcc_de[4] numeric
+@attribute pcm_fftMag_mfcc_de[5] numeric
+@attribute pcm_fftMag_mfcc_de[6] numeric
+@attribute pcm_fftMag_mfcc_de[7] numeric
+@attribute pcm_fftMag_mfcc_de[8] numeric
+@attribute pcm_fftMag_mfcc_de[9] numeric
+@attribute pcm_fftMag_mfcc_de[10] numeric
+@attribute pcm_fftMag_mfcc_de[11] numeric
+@attribute pcm_fftMag_mfcc_de[12] numeric
+@attribute pcm_LOGenergy_de numeric
+@attribute pcm_fftMag_mfcc_de_de[1] numeric
+@attribute pcm_fftMag_mfcc_de_de[2] numeric
+@attribute pcm_fftMag_mfcc_de_de[3] numeric
+@attribute pcm_fftMag_mfcc_de_de[4] numeric
+@attribute pcm_fftMag_mfcc_de_de[5] numeric
+@attribute pcm_fftMag_mfcc_de_de[6] numeric
+@attribute pcm_fftMag_mfcc_de_de[7] numeric
+@attribute pcm_fftMag_mfcc_de_de[8] numeric
+@attribute pcm_fftMag_mfcc_de_de[9] numeric
+@attribute pcm_fftMag_mfcc_de_de[10] numeric
+@attribute pcm_fftMag_mfcc_de_de[11] numeric
+@attribute pcm_fftMag_mfcc_de_de[12] numeric
+@attribute pcm_LOGenergy_de_de numeric
+@attribute footstepornot {yes,no}
+
+@data
+-18.90304,-4.8421,-8.642212,-4.725503,-6.334049,-5.009088,-4.540786,-6.515561,4.188601,6.701055,-4.228544,-9.911084,26.13663,0.417312,0.899033,0.083801,1.035784,-1.504043,-0.505647,2.571565,3.646108,1.712932,-0.083417,1.63243,3.174854,0.069837,0.267462,-0.130907,0.131956,-0.19275,0.525401,0.248112,-0.582463,-0.848844,-0.466717,-0.042519,-0.327743,-0.639169,-0.541076,yes
+-17.64882,-4.244027,-4.654683,0.937242,-10.87587,-9.312879,1.536641,7.009998,-4.868964,-7.428532,-3.387301,-1.17563,26.3134,3.926553,1.388033,1.570967,1.179855,0.74188,0.964184,1.890068,2.449888,0.471624,-0.67544,1.619862,3.132871,-5.201246,-0.093952,-0.149807,-0.112258,-0.296936,0.339152,0.183442,-0.53767,-0.885055,-0.030501,0.365752,-0.265896,-0.694614,-0.014895,yes
+-17.44359,-0.645971,-10.21697,-2.377957,-11.58335,-5.385427,5.278327,4.952199,17.28205,13.34876,3.512986,1.595459,26.39742,0.312412,1.199031,-0.87118,0.137989,-1.120609,0.317477,2.337991,2.087772,4.83379,3.407271,2.238335,2.578418,0.060561,-0.463804,-0.102727,-0.507594,-0.524054,0.184172,0.240358,-0.478819,-1.097678,0.939312,1.330865,-0.074455,-0.781993,0.511199,yes
