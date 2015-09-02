@@ -1,0 +1,50 @@
+@relation (null)_(null)
+
+@attribute pcm_fftMag_mfcc[1] numeric
+@attribute pcm_fftMag_mfcc[2] numeric
+@attribute pcm_fftMag_mfcc[3] numeric
+@attribute pcm_fftMag_mfcc[4] numeric
+@attribute pcm_fftMag_mfcc[5] numeric
+@attribute pcm_fftMag_mfcc[6] numeric
+@attribute pcm_fftMag_mfcc[7] numeric
+@attribute pcm_fftMag_mfcc[8] numeric
+@attribute pcm_fftMag_mfcc[9] numeric
+@attribute pcm_fftMag_mfcc[10] numeric
+@attribute pcm_fftMag_mfcc[11] numeric
+@attribute pcm_fftMag_mfcc[12] numeric
+@attribute pcm_LOGenergy numeric
+@attribute pcm_fftMag_mfcc_de[1] numeric
+@attribute pcm_fftMag_mfcc_de[2] numeric
+@attribute pcm_fftMag_mfcc_de[3] numeric
+@attribute pcm_fftMag_mfcc_de[4] numeric
+@attribute pcm_fftMag_mfcc_de[5] numeric
+@attribute pcm_fftMag_mfcc_de[6] numeric
+@attribute pcm_fftMag_mfcc_de[7] numeric
+@attribute pcm_fftMag_mfcc_de[8] numeric
+@attribute pcm_fftMag_mfcc_de[9] numeric
+@attribute pcm_fftMag_mfcc_de[10] numeric
+@attribute pcm_fftMag_mfcc_de[11] numeric
+@attribute pcm_fftMag_mfcc_de[12] numeric
+@attribute pcm_LOGenergy_de numeric
+@attribute pcm_fftMag_mfcc_de_de[1] numeric
+@attribute pcm_fftMag_mfcc_de_de[2] numeric
+@attribute pcm_fftMag_mfcc_de_de[3] numeric
+@attribute pcm_fftMag_mfcc_de_de[4] numeric
+@attribute pcm_fftMag_mfcc_de_de[5] numeric
+@attribute pcm_fftMag_mfcc_de_de[6] numeric
+@attribute pcm_fftMag_mfcc_de_de[7] numeric
+@attribute pcm_fftMag_mfcc_de_de[8] numeric
+@attribute pcm_fftMag_mfcc_de_de[9] numeric
+@attribute pcm_fftMag_mfcc_de_de[10] numeric
+@attribute pcm_fftMag_mfcc_de_de[11] numeric
+@attribute pcm_fftMag_mfcc_de_de[12] numeric
+@attribute pcm_LOGenergy_de_de numeric
+@attribute fingersnapornot {yes,no}
+
+@data
+-28.72336,1.75136,-7.524258,8.965743,-3.619274,10.2212,-5.864638,-4.86974,-3.032289,-9.519379,-4.066186,-2.942346,27.07534,-2.635751,-5.173092,-2.400503,-5.453622,-1.08279,-3.83572,1.389675,-4.267774,-1.46922,0.711562,-2.175056,0.931702,-0.003442,0.626019,0.610152,0.027747,0.599788,0.320159,-0.101777,-0.115101,0.559638,0.406854,0.116611,1.312004,0.671189,0.003616,yes
+-36.23336,-14.78472,-13.25899,-3.215808,-7.314006,9.434983,4.942048,-12.99632,-3.707744,-4.375805,-17.30936,-5.14731,27.06589,-2.220572,-5.69239,-3.961829,-5.74659,-1.037403,-4.98574,0.066171,-4.104527,0.45146,0.721377,-0.285935,1.821094,0.003883,1.48034,1.852625,1.176397,1.846147,0.498016,0.523051,0.40026,2.140858,0.637651,0.41906,2.516249,0.979883,0.004958,yes
+-38.14712,-15.84606,-16.65941,-12.21159,-7.18586,-8.56429,-4.319605,-22.14532,-10.04066,-8.533357,-8.319881,2.818645,27.06286,0.286754,-1.862684,-1.481104,-2.308197,0.495311,-3.769595,1.475921,-1.55121,-0.39529,1.289708,3.440403,3.842951,0.010975,1.816316,2.387359,2.216659,2.647697,0.379719,1.559901,1.306259,3.394466,0.791701,0.80524,2.430037,0.617345,0.00388,yes
+-35.11434,-17.91188,-22.76583,-9.178541,-7.022997,-5.314753,-6.3063,-16.75459,2.729197,-6.405506,-3.369013,3.282627,27.101,3.304698,2.43483,3.021783,2.204398,0.618239,-1.253527,3.347852,5.078233,1.182072,2.517787,7.59846,4.37549,0.014138,1.253782,1.979139,2.490239,2.209933,0.033134,1.792173,1.533772,3.074191,0.294765,0.706516,1.134297,-0.1202,-0.000383,yes
+-27.8491,-5.998481,-10.17636,0.406126,-1.288224,-1.251904,7.13914,-10.74665,-8.227212,-2.055988,6.165655,12.05744,27.11266,3.683196,2.700092,5.190984,3.80937,-0.012017,2.09768,6.280131,8.113176,2.12398,3.839555,6.032929,2.74123,0.010831,-0.0332,0.25981,0.860765,0.509277,-0.458029,1.013943,0.255835,1.143529,0.40834,0.0694,-0.748017,-1.026912,-0.003444,yes
+-24.85888,-7.534361,-1.391602,1.497325,-7.17163,-0.488846,15.95193,6.695513,1.295893,4.974443,13.44017,12.11074,27.11168,2.350115,1.921917,5.153321,2.244293,-0.618067,1.041487,5.332926,6.434236,0.66565,2.979033,4.089289,1.770952,0.002038,-0.969455,-0.787693,-0.94776,-0.799993,-0.240114,0.056199,-1.121328,-1.478121,-0.25835,-0.746904,-1.977495,-1.148155,-0.00393,yes
