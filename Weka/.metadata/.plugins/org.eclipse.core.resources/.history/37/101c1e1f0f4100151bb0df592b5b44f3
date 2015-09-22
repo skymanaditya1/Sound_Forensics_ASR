@@ -1,0 +1,26 @@
+package com.aditya.weka;
+
+import weka.core.Instances;
+import weka.core.converters.ConverterUtils.DataSource;
+
+/**
+ * This class demonstrates the use of the weka API 
+ * in Windows
+ * @author Aditya
+ *
+ */
+
+public class WekaTestingWindowsCode {
+
+	private static String path_name = "G:/CCBD SoundForensics/Sound_Forensics_ASR_Git/Weka";
+	
+	public static void main(String[] args) throws Exception{
+		DataSource source = new DataSource(path_name+"/iris_numeric.arff");
+		Instances dataset = source.getDataSet();
+		
+		dataset.setClassIndex(dataset.numAttributes() - 1);
+		
+		// print out the class values
+		
+	}
+}

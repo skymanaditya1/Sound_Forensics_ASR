@@ -1,0 +1,19 @@
+package com.aditya.weka;
+
+import java.io.IOException;
+
+import weka.core.converters.ConverterUtils.DataSource;
+
+/**
+ * This class demonstrates the use of the weka API 
+ * in Windows
+ * @author Aditya
+ *
+ */
+
+public class WekaTestingWindowsCode {
+
+	public static void main(String[] args) throws IOException{
+		DataSource source = new DataSource("");
+	}
+}

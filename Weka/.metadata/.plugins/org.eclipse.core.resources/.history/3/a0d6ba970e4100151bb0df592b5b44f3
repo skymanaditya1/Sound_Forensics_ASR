@@ -1,0 +1,17 @@
+package com.aditya.weka;
+
+import java.io.IOException;
+
+/**
+ * This class demonstrates the use of the weka API 
+ * in Windows
+ * @author Aditya
+ *
+ */
+
+public class WekaTestingWindowsCode {
+
+	public static void main(String[] args) throws IOException{
+		
+	}
+}
