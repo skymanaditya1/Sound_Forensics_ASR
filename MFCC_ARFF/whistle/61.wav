@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang=es-ES>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+    
+    
+    
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<title>404 - Pagina de Error | TRINIT Asoc. Informáticos de Zaragoza</title>	
+		<link rel="shortcut icon" type="image/x-icon" href="http://trinit.es/favicon.ico">	
+        <link rel=apple-touch-icon href="http://trinit.es/img/AppleLogos/57.ico"/>
+        <link rel=apple-touch-icon sizes=72x72 href="http://trinit.es/img/AppleLogos/72.ico"/>
+        <link rel=apple-touch-icon sizes=114x114 href="http://trinit.es/img/AppleLogos/114.ico"/>		
+		
+		<meta name="description" content="Pagina de Error de Trinit Asoc. Informaticos de Zaragoza">
+		<meta name="author" content="androtiyas.es">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Libs CSS -->
+		<link rel="stylesheet" href="http://trinit.es/vendor/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="http://trinit.es/vendor/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="http://trinit.es/vendor/owl-carousel/owl.carousel.css" media="screen">
+		<link rel="stylesheet" href="http://trinit.es/vendor/owl-carousel/owl.theme.css" media="screen">
+		<link rel="stylesheet" href="http://trinit.es/vendor/magnific-popup/magnific-popup.css" media="screen">
+		<link rel="stylesheet" href="http://trinit.es/vendor/isotope/jquery.isotope.css" media="screen">
+		<link rel="stylesheet" href="http://trinit.es/vendor/mediaelement/mediaelementplayer.css" media="screen">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="http://trinit.es/css/theme.css">
+		<link rel="stylesheet" href="http://trinit.es/css/theme-elements.css">
+		<link rel="stylesheet" href="http://trinit.es/css/theme-blog.css">
+		<link rel="stylesheet" href="http://trinit.es/css/theme-shop.css">
+		<link rel="stylesheet" href="http://trinit.es/css/theme-animate.css">
+
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="http://trinit.es/css/theme-responsive.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="http://trinit.es/css/skins/default.css">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="http://trinit.es/css/custom.css">
+
+		<!-- Head Libs -->
+		<script src="http://trinit.es/vendor/modernizr.js"></script>
+
+		<!--[if IE]>
+			<link rel="stylesheet" href="http://trinit.es/css/ie.css">
+		<![endif]-->
+
+		<!--[if lte IE 8]>
+			<script src="http://trinit.es/vendor/respond.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+		<div class="body">
+			<header id="header">
+				<div class="container">
+					<h1 class="logo">
+						<a href="http://trinit.es/">
+							<img alt="Porto" width="258" height="126" data-sticky-width="82" data-sticky-height="40" src="http://trinit.es/img/logo.png" title="Logo de TRINIT" align="Logo de TRINIT">
+						</a>
+					</h1>
+					<button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+						<i class="icon icon-bars"></i>
+					</button>
+				</div>
+				<div class="navbar-collapse nav-main-collapse collapse">
+					<div class="container">
+						<ul class="social-icons">
+							<li class="facebook"><a href="https://www.facebook.com/ivangarciasubero" target="_blank" title="Facebook">Facebook</a></li>
+							<li class="twitter"><a href="https://twitter.com/valmontwindgate" target="_blank" title="Twitter">Twitter</a></li>
+							<li class="googleplus"><a href="https://plus.google.com/+Iv%C3%A1nGarc%C3%ADaSubero/posts" target="_blank" title="Google Plus">Google Plus</a></li>
+							<li class="youtube"><a href="https://www.youtube.com/user/valmontwindgate" target="_blank" title="Youtube">Youtube</a></li>
+							<li class="linkedin"><a href="http://linkedin.trinit.es" target="_blank" title="Linkedin">Linkedin</a></li>
+						</ul>
+						<nav class="nav-main mega-menu">
+							<ul class="nav nav-pills nav-main" id="mainMenu">
+								<li>
+									<a class="dropdown-toggle" href="http://trinit.es/">
+										Inicio
+									</a>
+								</li>
+								<li>
+									<a href="http://trinit.es/lista-cursos/">Cursos</a>
+								</li>
+								<li>
+									<a href="http://trinit.es/lista-proyectos/">Proyectos</a>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">
+										Informacion
+										<i class="icon icon-angle-down"></i>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="http://trinit.es/eventos/">Eventos</a></li>
+										<li><a href="http://trinit.es/fotografias/">Fotografias</a></li>
+										<li><a href="http://trinit.es/blog/">Blog</a></li>
+										<li><a href="http://trinit.es/contacto/">Contacto</a></li>
+										<li><a href="http://trinit.es/asociados/">Asociados</a></li>
+										<li><a href="http://trinit.es/nosotros/">Nosotros</a></li>
+									</ul>
+								</li>
+                                <li>
+                                    <div class="search">
+                                        <form id="searchForm" action="http://trinit.es/buscar/" method="get">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control search" name="q" id="q" placeholder="Buscar...">
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-default" type="submit"><i class="icon icon-search"></i></button>
+                                                </span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+
+			<div role="main" class="main">
+
+				<section class="page-top">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="breadcrumb">
+									<li><a href="http://trinit.es/">Home</a></li>
+									<li class="active">Error</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h2>404 - Pagina de Error</h2>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="container">
+
+					<section class="page-not-found">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-1">
+								<div class="page-not-found-main">
+									<h2>404 <i class="icon icon-file"></i></h2>
+									<p>Lo siento, la pagina que intenta buscar no existe o no esta disponible en estos momentos.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				</div>
+
+			</div>
+
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="footer-ribbon">
+							<span>Encuéntranos Fácil!</span>
+						</div>
+						<div class="col-md-3">
+							<div class="newsletter">
+								<h4>Ultimas Noticias</h4>
+								<p>Suscríbete a nuestras listas y no te pierdas nunca mas ningún evento o curso que organice TRINIT Asoc. Informáticos de Zaragoza.</p>
+			
+								<div class="alert alert-success hidden" id="newsletterSuccess">
+									<strong>Todo Correcto!</strong> Has sido añadido a nuestras listas.
+								</div>
+			
+								<div class="alert alert-danger hidden" id="newsletterError"></div>
+			
+								<form id="newsletterForm" action="http://trinit.es/php/newsletter-subscribe.php" method="POST">
+									<div class="input-group">
+										<input class="form-control" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
+										<span class="input-group-btn">
+											<button class="btn btn-default" type="submit">Go!</button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<h4>Ultimos Tweet</h4>
+							<div id="tw" class="twitter"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="contact-details">
+								<h4>Contáctanos</h4>
+								<ul class="contact">
+									<li>
+									  <p><i class="icon icon-map-marker"></i> <strong>Dirección:</strong> Aptdo. Correos 8077 CP 50080 Zaragoza</p></li>
+									<li>
+									  <p><i class="icon icon-phone"></i> <strong>Teléfono:</strong> 976 43 61 67</p></li>
+									<li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:trinit@trinit.es">trinit@trinit.es</a></p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<h4>Siguenos</h4>
+							<div class="social-icons">
+								<ul class="social-icons">
+									<li class="facebook"><a href="https://www.facebook.com/ivangarciasubero" target="_blank" data-placement="bottom" rel="tooltip" title="Facebook">Facebook</a></li>
+									<li class="twitter"><a href="https://twitter.com/valmontwindgate" target="_blank" data-placement="bottom" rel="tooltip" title="Twitter">Twitter</a></li>
+									<li class="googleplus"><a href="https://plus.google.com/+Iv%C3%A1nGarc%C3%ADaSubero/posts" target="_blank" data-placement="bottom" rel="tooltip" title="Google Plus">Google Plus</a></li>
+									<li class="youtube"><a href="https://www.youtube.com/user/valmontwindgate" target="_blank" data-placement="bottom" rel="tooltip" title="Youtube">Youtube</a></li>
+									<li class="linkedin"><a href="http://linkedin.trinit.es" target="_blank" data-placement="bottom" rel="tooltip" title="Linkedin">Linkedin</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-1">
+								<a href="http://trinit.es/" class="logo">
+									<img title="TRINIT Asoc. Informaticos de Zaragoza" alt="TRINIT Asoc. Informaticos de Zaragoza" class="img-responsive" src="http://trinit.es/img/logo-footer.png">
+								</a>
+							</div>
+							<div class="col-md-7">
+								<p>© Copyright 2014. Pagina web creada por <a href="http://androtiyas.es/" title="Pagina web creada por Androtiyas" target="	">Androtiyas</a></p>
+							</div>
+							<div class="col-md-4">
+								<nav id="sub-menu">
+									<ul>
+										<li><a href="http://trinit.es/lista-cursos/">Cursos</a></li>
+										<li><a href="http://trinit.es/lista-proyectos/">Proyectos</a></li>
+										<li><a href="http://trinit.es/contacto/">Contacto</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Libs -->
+		<script src="http://trinit.es/vendor/jquery.js"></script>
+		<script src="http://trinit.es/vendor/jquery.appear.js"></script>
+		<script src="http://trinit.es/vendor/jquery.easing.js"></script>
+		<script src="http://trinit.es/vendor/jquery.cookie.js"></script>
+		<script src="http://trinit.es/vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="http://trinit.es/vendor/jquery.validate.js"></script>
+		<script src="http://trinit.es/vendor/jquery.stellar.js"></script>
+		<script src="http://trinit.es/vendor/jquery.knob.js"></script>
+		<script src="http://trinit.es/vendor/jquery.gmap.js"></script>
+		<script src="http://trinit.es/vendor/twitterjs/twitter.js"></script>
+		<script src="http://trinit.es/vendor/isotope/jquery.isotope.js"></script>
+		<script src="http://trinit.es/vendor/owl-carousel/owl.carousel.js"></script>
+		<script src="http://trinit.es/vendor/jflickrfeed/jflickrfeed.js"></script>
+		<script src="http://trinit.es/vendor/magnific-popup/magnific-popup.js"></script>
+		<script src="http://trinit.es/vendor/mediaelement/mediaelement-and-player.js"></script>
+		
+		<!-- Theme Initializer -->
+		<script src="http://trinit.es/js/theme.plugins.js"></script>
+		<script src="http://trinit.es/js/theme.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="http://trinit.es/js/custom.js"></script>
+
+		<script type="text/javascript">
+		
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-2595342-1']);
+			_gaq.push(['_trackPageview']);
+		
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		
+		</script>
+
+		<script>
+$(document).ready(function(){var data={"errors":[{"code":89,"message":"Invalid or expired token."}]};for(var i=0;i<data.length;i++){var tweetText=data[i].text;var tweetText=tweetText.substring(0,120);tweetText=tweetText.replace(/http:\/\/\S+/g,'<a href="$&" target="_blank">$&</a>');tweetText=tweetText.replace(/(@)(\w+)/g,' $1<a rel="nofollow" href="http://twitter.com/$2" target="_blank" title="Twitter de TRINIT">$2</a>');tweetText=tweetText.replace(/(#)(\w+)/g,' $1<a rel="nofollow" href="http://search.twitter.com/search?q=%23$2" target="_blank" title="Hashtag de twitter relacionado con TRINIT">$2</a>');$('#tw').append('<li class="tweet"><div class="tweetImage"><a rel="nofollow" href="http://twitter.trinit.es" target="_blank" title="Tweets de TRINIT">@ValmontWindgate</a></div><div class="tweetBody">'+tweetText+'</div></li>')}});
+		</script>
+    </body>
+</html>

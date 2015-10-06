@@ -41,9 +41,12 @@ public class Clustering {
 		// evaluate the cluster
 		ClusterEvaluation eval = new ClusterEvaluation();
 		
-		// load the dataset for testing
+		// load the data set for testing
 		DataSource source1 = new DataSource(abs_path+"/weather.nominal.test.arff");
 		Instances testdataset = source1.getDataSet();
+		
+		// Prints out the number of instances of the test data set
+		System.out.println("The number of instances in the dataset are : "+testdataset.numInstances());
 		
 		eval.setClusterer(cluster);
 		eval.evaluateClusterer(testdataset);
