@@ -86,3 +86,7 @@ if __name__ == "__main__":
 	print("Matrix Q:\n", nQ)
 	print("Original Matrix R:\n", R)
 	print("Matrix R:\n", nR)
+	
+	print("The error difference between the actual matrix and the predicted matrix")
+	resultant_matrix = np.subtract(R, nR)
+	print("The resultant matrix :\n",resultant_matrix)
