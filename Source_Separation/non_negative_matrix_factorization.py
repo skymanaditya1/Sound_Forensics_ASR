@@ -1,5 +1,7 @@
 import numpy as np
 
+# @author Aditya
+
 error_threshold = 0.001
 
 def matrix_factorization(P, Q, R, K, steps = 20000, alpha = 0.0002, beta = 0.02):
