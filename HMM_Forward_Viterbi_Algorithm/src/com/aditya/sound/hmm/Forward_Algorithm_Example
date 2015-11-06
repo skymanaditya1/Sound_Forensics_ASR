@@ -1,0 +1,49 @@
+Enter the number of states : 2
+//The states are hot and cold as given in the book
+
+Enter the transition matrix:
+Enter the transition probability from 0 state to 1 state : 
+0.8
+Enter the transition probability from 0 state to 2 state : 
+0.2
+Enter the transition probability from 1 state to 1 state : 
+0.7
+Enter the transition probability from 1 state to 2 state : 
+0.3
+Enter the transition probability from 2 state to 1 state : 
+0.4
+Enter the transition probability from 2 state to 2 state : 
+0.6
+
+0.8 0.2 
+0.7 0.3 
+0.4 0.6 
+
+Enter the number of observations in the observation sequence : 
+3
+Enter the observation likelihood probabilities : 
+Enter the state observation likelihood for obs. 0 given state 0 : 
+0.4
+Enter the state observation likelihood for obs. 0 given state 1 : 
+0.1
+Enter the state observation likelihood for obs. 1 given state 0 : 
+0.2
+Enter the state observation likelihood for obs. 1 given state 1 : 
+0.5
+Enter the state observation likelihood for obs. 2 given state 0 : 
+0.4
+Enter the state observation likelihood for obs. 2 given state 1 : 
+0.1
+
+0.4 0.1 
+0.2 0.5 
+0.4 0.1 
+Calculating the forward probabilities : 
+The forward_probability matrix is : 
+0.32000002 0.020000001 
+0.046400003 0.054000005 
+0.021632003 0.004632001 
+The forward probability of the automaton with the given observation sequence is : 0.026264004
+
+
+This basically gives the forward probability matrix and the forward path probability, which is the sum of the final state probabilities. 

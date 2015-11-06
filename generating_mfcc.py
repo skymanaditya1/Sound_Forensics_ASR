@@ -18,6 +18,7 @@ def getNumInstances( fileName ):
 	return num
 
 def populateNomFile(inst, whistleornot):
+	whistleornot = "cat"
 	os.system("touch "+WRITE_DIR+"/nominal.arff")
 	print(inst, whistleornot)
 	f = open(WRITE_DIR+"/nominal.arff", "w")

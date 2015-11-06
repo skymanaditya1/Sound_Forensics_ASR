@@ -1,0 +1,51 @@
+We have coded the Viterbi Decoding Algorithm for the Hidden Markov Model. The Viterbi Decoding Algorithm takes the number of states in the HMM (called as the hidden states) , the transition probability matrix (takes the transition from each state to every other state including the final state), the observation sequence. It outputs the Viterbi Path probability matrix, the most probable hidden state sequence given an observation sequence and the most probable probability.
+
+Run the java file (this is the example that we have taken from the book -> it gives the correct result). (Input is marked in bold)
+
+Enter the number of states : 
+2
+Enter the state transitional probability matrix : 
+Enter the transition probability from state 0 to state 1
+0.8
+Enter the transition probability from state 0 to state 2
+0.2
+Enter the transition probability from state 1 to state 1
+0.7
+Enter the transition probability from state 1 to state 2
+0.3
+Enter the transition probability from state 2 to state 1
+0.4
+Enter the transition probability from state 2 to state 2
+0.6
+
+0.8 0.2 
+0.7 0.3 
+0.4 0.6 
+
+Enter the length of the observation sequence : 
+3
+Enter the state observation likelihood : 
+Enter the observation prob of obs 0 given state 0
+0.4
+Enter the observation prob of obs 0 given state 1
+0.1
+Enter the observation prob of obs 1 given state 0
+0.2
+Enter the observation prob of obs 1 given state 1
+0.5
+Enter the observation prob of obs 2 given state 0
+0.4
+Enter the observation prob of obs 2 given state 1
+0.1
+
+0.4 0.1 
+0.2 0.5 
+0.4 0.1 
+
+The most probable hidden state sequence for the given observation sequence is : 
+0 1 2 1 (Ans)
+The Viterbi path probabilities are : 
+0.32000002 0.020000001 
+0.044800002 0.048000004 
+0.0125440005 0.0028800003 
+The probability of the most probable sequence is : 0.0125440005 (Ans)
