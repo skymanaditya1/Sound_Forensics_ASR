@@ -62,6 +62,3 @@ if __name__ == "__main__":
 	merge_str = "java -cp /usr/share/java/weka.jar weka.core.Instances merge "+WRITE_DIR+"/final.arff "+WRITE_DIR+"/nominal.arff > "+WRITE_DIR+"/mergefile.arff"
 	os.system(merge_str)
 	os.system("cat "+WRITE_DIR+"/margefile.arff > "+WRITE_DIR+"/final.arff")
-	
-	
-	
