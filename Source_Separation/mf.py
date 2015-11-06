@@ -48,16 +48,16 @@ num_rows = 5
 num_cols = 4
 
 if __name__ == "__main__":
-	"""R = [
+	R = [
 	[5,4,0,1],
 	[4,0,0,1],
 	[1,1,0,5],
 	[1,0,0,4],
 	[0,1,5,4],
 	]
-	"""
+	
 
-	R = []
+	"""R = []
 	num_rows = int(input("Enter the dimension of the matrix : "))
 	num_cols = int(input())
 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 	print("Enter the contents of the matrix : ")
 	for i in range(len(R)):
 		for j in range(num_cols):
-			R[i].append(int(input()))
+			R[i].append(int(input()))"""
 
 	print("Factorizing the matrix R, Please wait...")
 	R = np.array(R)
