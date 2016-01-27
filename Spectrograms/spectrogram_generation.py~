@@ -17,7 +17,7 @@ def generate_spectrogram(wav_file):
 	plt.xlabel("Time in (s)")
 	plt.ylabel("Frequency in Hz")
 	plt.specgram(sound_info, Fs=frame_rate)
-	plt.savefig("/home/aditya/CCBD_Sound_Internship/Sound_Forensics_ASR_Git/Spectrograms/helloworld_spectrogram.png")
+	plt.savefig(sound_source+"/helloworld_spectrogram.png")
 	
 def generate_sound_data(wav_file):
 	# Method to generate sound data
